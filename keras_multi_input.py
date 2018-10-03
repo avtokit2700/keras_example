@@ -1,18 +1,7 @@
 from keras import layers
-from keras.losses import mean_absolute_error, mean_squared_error, mean_squared_logarithmic_error
-from keras.optimizers import Adam, SGD, RMSprop
 from keras import Input
 from keras.models import Model
 from keras.utils import plot_model
-from keras.preprocessing.image import img_to_array
-from keras.applications import VGG16
-from keras.preprocessing.image import ImageDataGenerator
-from imutils import paths
-import cv2
-import numpy as np
-import random
-import matplotlib.pyplot as plt
-from keras.callbacks import ModelCheckpoint
 
 
 def multi_model():
